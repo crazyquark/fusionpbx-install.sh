@@ -39,9 +39,9 @@ else
 fi
 apt-get update
 
-#use php version 5 for arm
+#use php version 7 for arm
 if [ .$cpu_architecture = .'arm' ]; then
-        php_version=5
+        php_version=7
 fi
 
 #install dependencies
